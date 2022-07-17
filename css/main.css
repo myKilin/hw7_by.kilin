@@ -1,0 +1,48 @@
+* 
+{
+    box-sizing: border-box;
+}
+h1 , h5 {
+    text-align: center;
+    background-color: cyan;
+}
+ul {
+    margin: 50px;
+    padding: 25px;
+    list-style: none;
+    background-color: antiquewhite;
+}
+
+ul > li {
+    display: inline-block;
+    margin-right: -4px;
+    padding: 10px;
+    width: calc(100% / 3);
+    vertical-align: middle;
+}
+.card {
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px;
+    background-color: rgb(201, 194, 208);
+    overflow: hidden;
+}
+
+.card_visual {
+    display: block;
+    margin: 0 0 10px;
+}
+.card_content {
+    padding: 25px;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+.button {
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 10px;
+    background-color: bisque;
+    border-radius: 8px ;
+}
